@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+
+ol,
+ul,
+li,
+body,
+table,
+th,
+td,
+button,
+select,
+input,
+textarea,a {
+    font-family: 'Lato', 'Noto Sans KR', sans-serif;
+    -webkit-text-size-adjust: none;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-decoration-line: none;
+}
+
+body {
+    height: 5000px;
+    background-color: palegoldenrod;
+}
+
+.s {
+    width: 100%;
+    border: 1px solid red;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.header-inner-wrap {
+    position: fixed;
+    z-index: 9998;
+    height: auto;
+    width: 100%;
+}
+
+.down {
+    background-color: white;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+.head-inner {
+    position: relative;
+    height: auto;
+    margin: 0px auto;
+    padding: 0 35px;
+}
+
+header .header-inner-wrap .head-inner .logo {
+    position: relative;
+    z-index: 100;
+    float: left;
+    width: auto;
+    margin: 0;
+}
+
+header .header-inner-wrap .head-inner .logo img {
+    width: auto;
+    height: 170px;
+}
+
+header .header-inner-wrap .head-inner .logo::after {
+    clear: both;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.header-ulbox{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+.header-lang{
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 100%;
+    z-index: 100;
+}
+.header-ulbox .header-lang .header-lang-ul{
+    width: 220px;
+    height: 80px;
+    padding: 0;
+    border-radius: 60px;
+    list-style: disc;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 590px;
+}
+.header-ulbox .header-lang .header-lang-ul li{
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    float:left;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-ulbox .header-lang .header-lang-ul .none-select a{
+color: black;
+}
+.header-ulbox .header-lang ul li::after{
+clear: both;
+}
+.header-ulbox .header-lang .header-lang-ul .select {
+    border-radius: 0 60px 60px 0;
+    background: linear-gradient(to right, rgb(43, 182, 116) 0%, rgb(12, 169, 180) 100%);
+}
+.header-ulbox .header-lang .header-lang-ul .select a {
+    color: white;
+}
+.header-menu-btn{
+    position: relative;
+    z-index: 9999;
+    width: auto;
+    height: 65px;
+    top: -117px;
+    right: 5px;
+    margin-left: 860px;
+    background-color:transparent;;
+    border:none;
+}
+.header-menu-btn .line{
+    height: 5px;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 50px;
+    color: black;
+    background-color: #999;
+}
+.header-menu-btn{
+    color: none;
+}
+.main-visual-txt-con {
+    text-align: center;
+    margin-top: -35%;
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.area-box {
+    max-width: 1376px;
+    margin: 0px auto;
+    top: 10px;
+}
+
+.main-visual-txt-con .main-visual-txt1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 18px;
+}
+
+.main-visual-txt-con .main-visual-txt2 {
+    font-size: 112px;
+    margin-bottom: 2%;
+    margin-top: 20;
+    line-height: 1;
+    color: black;
+    font-weight: 900;
+}
+
+.main-visual-txt-con .main-visual-txt2 .fc-green {
+    font-style: normal;
+    font-weight: 900;
+    color: #2bb673;
+}
+
+.main-visual-txt-con .main-visual-txt2 .fc-blue {
+    font-style: normal;
+    font-weight: 900;
+    color: #0ba9b5;
+}
+
+.more-view-btn img {
+    top: -50px;
+    top: 702px;
+    right: 747px;
+    position: absolute;
+}
+
+.main-visual-m-img img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.main-container {
+    width: 100%;
+
+}
+
+.main-content1 {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.m-main-company-list li {
+    width: 50%;
+    float: left;
+}
+
+.m-main-company-list li::after {
+    clear: both;
+}
+
+.m-main-company-list .li-01 .company-inner {
+    background: url(../images/main/main_con01_img01_m.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.main-content2 {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.process-list ul li {
+    position: relative;
+    width: 25%;
+    min-height: 100px;
+    float: left;
+    bottom: -6px;
+    left: 0px;
+    height: 63px;
+    text-align: center;
+}
+
+.process-list ul li:after {
+    clear: both;
+}
+
+.position1 {
+    border: 1px solid aqua;
+}
+
+.main-content3 {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+
+
+footer {
+    width: 100%;
+    border: 1px solid red;
+    list-style: none;
+    background-color: #fff;
+}
+
+.footer-inner {
+    padding: 0 15px;
+}
+
+.footer-left-con {
+    float: left;
+}
+
+.footer-left-con::after {
+    clear: both;
+}
+
+.foot-menu {
+    float: left;
+}
+
+.foot-menu:after {
+    clear: both;
+}
+
+.foot-menu li {
+    float: left;
+    position: relative;
+    padding-left: 30px;
+    line-height: 1;
+}
+
+.foot-menu li::after {
+    clear: both;
+}
+
+.foot-menu li:first-child {
+    padding-left: 0;
+}
+
+.footerBottom {
+    padding: 35px 0 25px;
+}
+
+.footerBottom .tit {
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.25px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.footer-infomation {
+    width: 50%;
+}
+
+.footer-contact {
+    width: 50%;
+}
+
+.footer-contact ul li:first-child {
+    margin-top: 0;
+    padding-left: 20px;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: #222;
+    line-height: 1.2;
+}
+
+.footer-location {
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer-location::after {
+    clear: both;
+}
+
+
+.footer-copyright {
+    margin-top: 30px;
+    font-size: 11px;
+    letter-spacing: 0.25px;
+    color: #222;
+    font-weight: 400;
+}
+
+.footer-copyright b {
+    color: #0ba9b5;
+    font-weight: 400;
+}
