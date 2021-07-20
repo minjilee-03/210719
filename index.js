@@ -10,7 +10,7 @@ $(document).ready(function(){
 
   $(function(){
     var $header = $('.header-inner-wrap');
-    var $page = $('.main-content');
+    var $page = $('.main-visual-txt-con');
     var $window = $(window);
     var pageOffsetTop = $page.offset().top;//색상 변할 부분의 top값 구하기
     
