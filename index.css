@@ -22,7 +22,6 @@ textarea,a {
 
 body {
     height: 5000px;
-    background-color: palegoldenrod;
 }
 
 .s {
@@ -152,6 +151,9 @@ clear: both;
 .header-menu-btn{
     color: none;
 }
+.main-visual {
+    padding-bottom: 5px;
+}
 .main-visual-txt-con {
     text-align: center;
     margin-top: -35%;
@@ -216,6 +218,7 @@ clear: both;
 
 .main-content1 {
     width: 100%;
+    padding-top: 30px;
     border: 1px solid blue;
 }
 
