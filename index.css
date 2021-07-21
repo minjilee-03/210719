@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
-ol,em,
+ol,
+em,
 ul,
 li,
 body,
@@ -22,6 +23,11 @@ b {
     font-style: normal;
     font-weight: normal;
     text-decoration-line: none;
+}
+
+.wrap {
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .s {
@@ -95,6 +101,10 @@ header .header-inner-wrap .head-inner .logo::after {
     float: left;
     height: 100%;
     z-index: 100;
+}
+
+.header-lang :after {
+    clear: both;
 }
 
 .header-ulbox .header-lang .header-lang-ul {
@@ -187,7 +197,7 @@ header .header-inner-wrap .head-inner .logo::after {
     top: 10px;
 }
 
-.main-visual-txt-con .main-visual-txt1 {
+.slide1 .main-visual-txt-con .main-visual-txt1 {
     font-size: 25px;
     margin-bottom: 30px;
     color: black;
@@ -195,7 +205,7 @@ header .header-inner-wrap .head-inner .logo::after {
     letter-spacing: 18px;
 }
 
-.main-visual-txt-con .main-visual-txt2 {
+.slide1 .main-visual-txt-con .main-visual-txt2 {
     font-size: 112px;
     margin-bottom: 2%;
     margin-top: 20;
@@ -204,17 +214,45 @@ header .header-inner-wrap .head-inner .logo::after {
     font-weight: 900;
 }
 
-.main-visual-txt-con .main-visual-txt2 .fc-green {
+.slide1 .main-visual-txt-con .main-visual-txt2 .fc-green {
     font-style: normal;
     font-weight: 900;
     color: #2bb673;
 }
 
-.main-visual-txt-con .main-visual-txt2 .fc-blue {
+.slide1 .main-visual-txt-con .main-visual-txt2 .fc-blue {
     font-style: normal;
     font-weight: 900;
     color: #0ba9b5;
 }
+
+.main-visual-txt-con .main-visual-txt2 .fc-green {
+    font-style: normal;
+    font-weight: 900;
+}
+
+.main-visual-txt-con .main-visual-txt2 .fc-blue {
+    font-style: normal;
+    font-weight: 900;
+}
+
+.slide2 .main-visual-txt-con .main-visual-txt1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 18px;
+}
+
+.slide2 .main-visual-txt-con .main-visual-txt2 {
+    font-size: 112px;
+    margin-bottom: 2%;
+    margin-top: 20;
+    line-height: 1;
+    color: white;
+    font-weight: 900;
+}
+
 
 .more-view-btn img {
     top: -50px;
@@ -296,14 +334,19 @@ header .header-inner-wrap .head-inner .logo::after {
     background-color: #ddd;
     position: relative;
 }
+
 .main-process .process-line .first-line {
 
-top: 18;
+    top: 18;
 }
-.main-process .process-line .second-line {top: 257;}
+
+.main-process .process-line .second-line {
+    top: 257;
+}
+
 .main-process ul {
 
-padding-left: 80px;
+    padding-left: 80px;
 }
 
 .main-process ul li {
@@ -321,17 +364,17 @@ padding-left: 80px;
 
 .main-process .icon {
 
-width: 100%;
+    width: 100%;
 
-display: flex;
+    display: flex;
 
-align-items: center;
+    align-items: center;
 
-text-align: center;
+    text-align: center;
 
-justify-content: center;
+    justify-content: center;
 
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .main-process ul li img {
@@ -344,14 +387,12 @@ margin-bottom: 50px;
     width: 150px;
 }
 
-.position1 .dot {
-}
-
 .position1 .position-sub {
     font-size: 25px;
     font-weight: 500;
 }
-.position1 .position-sub em{
+
+.position1 .position-sub em {
     font-size: 25px;
 }
 
@@ -484,15 +525,17 @@ footer {
 .footer-location li span {
     color: #aaa;
 }
-.dot{
+
+.dot {
     width: 15px;
     height: 15px;
     border-radius: 100%;
     position: relative;
-    background-color:#ddd;
+    background-color: #ddd;
     top: -30;
     right: -65;
 }
+
 .footer-copyright {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -505,4 +548,50 @@ footer {
 .footer-copyright b {
     color: #0ba9b5;
     font-weight: 600;
+}
+
+.slick-next {
+    right: 156px;
+}
+
+.slick-prev {
+    left: 25px;
+}
+
+.slick-next,
+.slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 85%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    z-index: 999;
+    background: 0 0;
+}
+
+.slick-next:before {
+    font-family: slick;
+    font-size: 150px;
+    line-height: 1;
+    color: #0ba9b5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:before {
+    font-family: slick;
+    font-size: 150;
+    line-height: 1;
+    opacity: .75;
+    color: #2bb673;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
