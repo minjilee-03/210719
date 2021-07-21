@@ -11,24 +11,22 @@ td,
 button,
 select,
 input,
-textarea,a {
+textarea,a, b {
     font-family: 'Lato', 'Noto Sans KR', sans-serif;
     -webkit-text-size-adjust: none;
     list-style: none;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0 ;
+    padding: 0 ;
+    font-weight: normal;
     text-decoration-line: none;
 }
-
-body {
-    height: 5000px;
-}
-
 .s {
     width: 100%;
     border: 1px solid red;
 }
-
+.area{
+    padding: 0 35px;
+}
 header {
     position: absolute;
     width: 100%;
@@ -215,7 +213,10 @@ clear: both;
     width: 100%;
 
 }
-
+.main-content{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
 .main-content1 {
     width: 100%;
     padding-top: 30px;
@@ -276,7 +277,7 @@ footer {
 }
 
 .footer-inner {
-    padding: 0 15px;
+    padding: 0 35px;
 }
 
 .footer-left-con {
@@ -289,6 +290,7 @@ footer {
 
 .foot-menu {
     float: left;
+    padding: 0;
 }
 
 .foot-menu:after {
@@ -310,23 +312,32 @@ footer {
     padding-left: 0;
 }
 
+.foot-menu li a {font-size: 30px;color: black;}
+.foot-menu li a p {font-size: 30px;color: #0ba9b5;font-weight: 400;margin: 0;}
+
 .footerBottom {
     padding: 35px 0 25px;
 }
 
 .footerBottom .tit {
-    font-size: 11px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: lighter;
     letter-spacing: 0.25px;
     color: #222;
     margin-bottom: 15px;
 }
-
+.footer-infomation-contact-container{
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+}
 .footer-infomation {
+    border: 1px solid red;
     width: 50%;
 }
 
 .footer-contact {
+    border: 1px solid red;
     width: 50%;
 }
 
@@ -344,6 +355,7 @@ footer {
     float: left;
     margin-top: 30px;
     width: 100%;
+    border: 1px solid red;
 }
 
 .footer-location::after {
