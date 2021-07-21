@@ -1,8 +1,7 @@
 $(document).ready(function(){
     $(".main-visual-slick-slides").slick({
       fade: true,
-      autoplay: true,
-      autoplaySpeed: 5000,
+      autoplay: false,
       cssEase: 'ease-in-out',
       arrows: true
     });
@@ -23,3 +22,5 @@ $(document).ready(function(){
       $header.toggleClass('down', scrolled); //클래스 토글
     });
   });
+
+  $.noConflict();
