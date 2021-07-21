@@ -273,33 +273,159 @@ header .header-inner-wrap .head-inner .logo::after {
 
 .main-content {
     padding-top: 30px;
-    padding-bottom: 150px;
+    padding-bottom: 350px;
 }
 
 .main-content1 {
     width: 100%;
     padding-top: 30px;
-    border: 1px solid blue;
+}
+
+.m-main-company-list {
+    width: 100%;
 }
 
 .m-main-company-list li {
-    width: 50%;
+    width: 453px;
+    height: 455px;
     float: left;
+}
+
+.m-main-company-list .li-05 {
+
+    width: 100%;
+
+    margin-bottom: 150px;
+}
+
+.m-main-company-list .li-01 {
+    background: url(http://www.novel-works.com/images/main/main_con01_img01_m.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.m-main-company-list .li-02 {
+    background-color: #2bb673;
+}
+
+.m-main-company-list .li-03 {
+    background-color: #0ba9b5;
+}
+
+.m-main-company-list .li-04 {
+    background: url(http://www.novel-works.com/images/main/main_con01_img04_m.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.m-main-company-list .li-05 {
+    background: url(http://www.novel-works.com/images/main/main_con01_img05_m.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .m-main-company-list li::after {
     clear: both;
 }
 
-.m-main-company-list .li-01 .company-inner {
-    background: url(../images/main/main_con01_img01_m.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+.m-main-company-list .li-01 .txt-con {
+    position: absolute;
+    top: 1630;
+    left: 110;
+    width: auto;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
 }
 
-.main-content2 {
-    width: 100%;
-    border: 1px solid blue;
+.m-main-company-list .li-02 .txt-con {
+    position: absolute;
+    top: 1675;
+    left: 560;
+    width: auto;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.m-main-company-list .li-02 .txt-con .big-sub {
+    margin: 0;
+}
+
+li .txt-con .middle-line {
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 50px 0 45px;
+}
+
+.m-main-company-list .li-02 .txt-con .small-sub {
+    margin: 0;
+    position: absolute;
+    width: auto;
+    color: #fff;
+    font-weight: 600;
+}
+
+.m-main-company-list .li-02 .txt-con .small-sub1 {
+    top: 300;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.m-main-company-list .li-02 .txt-con .small-sub2 {
+    top: 400;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.m-main-company-list .li-03 .txt-con {
+    position: absolute;
+    top: 2078;
+    left: 110;
+    width: auto;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.m-main-company-list .li-03 .txt-con ul li {
+    width: 40%;
+    float: left;
+    font-size: 25px;
+    line-height: 1.6;
+    height: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.li-03-clearfix {
+    padding: 0 430px 0 0;
+}
+
+.m-main-company-list .li-04 .txt-con {
+    margin: 0;
+    position: absolute;
+    top: 2078;
+    left: 560;
+    width: auto;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.m-main-company-list .li-04 .txt-con .fc-green {
+    font-weight: 700;
+    color: #2bb673;
+}
+
+.m-main-company-list .li-04 .txt-con .fc-blue {
+    font-weight: 700;
+    color: #0ba9b5;
 }
 
 .contents2-title {
@@ -398,11 +524,77 @@ header .header-inner-wrap .head-inner .logo::after {
 
 .main-content3 {
     width: 100%;
-    border: 1px solid blue;
+    padding-top: 100px;
 }
 
+.main-development-tit {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 35px;
+}
 
+.main-development-tit .fc-green {
+    color: #2bb673;
+    font-weight: 700;
+}
 
+.main-development-tit .fc-blue {
+    color: #0ba9b5;
+    font-weight: 700;
+}
+
+.li-inner {
+    position: static;
+    padding-left: 0;
+}
+
+.content3-clearfix {
+    padding: 55px 80px 0;
+}
+
+.content3-clearfix .prd {
+    display: block;
+    width: 28%;
+    float: left;
+    text-align: center;
+    position: static;
+}
+
+.content3-clearfix .prd img {
+    width: 200px;
+}
+
+.content3-clearfix .txt-group {
+    float: left;
+    width: 65%;
+    right: -50;
+    top: -25;
+    position: relative;
+}
+
+.content3-clearfix .txt-group .txt-01 {
+    font-size: 115px;
+    font-weight: 900;
+    margin: 0;
+    width: 100%;
+    padding-right: 0;
+}
+
+.content3-clearfix .txt-group .txt-02 {
+    padding-top: 10px;
+    width: 100%;
+    padding-right: 0;
+    font-size: 32px;
+}
+.txt-03 {
+    padding-top: 30px;
+    width: 100%;
+    padding-right: 0;
+    font-size: 132px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+}
 footer {
     width: 100%;
     list-style: none;
@@ -560,25 +752,11 @@ footer {
 
 .slick-next,
 .slick-prev {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
     top: 85%;
-    display: block;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    cursor: pointer;
-    border: none;
-    outline: 0;
     z-index: 999;
-    background: 0 0;
 }
 
 .slick-next:before {
-    font-family: slick;
     font-size: 150px;
     line-height: 1;
     color: #0ba9b5;
@@ -587,7 +765,6 @@ footer {
 }
 
 .slick-prev:before {
-    font-family: slick;
     font-size: 150;
     line-height: 1;
     opacity: .75;
