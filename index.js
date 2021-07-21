@@ -23,4 +23,13 @@ $(document).ready(function(){
     });
   });
 
+  $(document).ready(function(){
+    $(".main-development-con").slick({
+      fade: true,
+      autoplay: false,
+      cssEase: 'ease-in-out',
+      arrows: false
+    });
+  });
+
   $.noConflict();
