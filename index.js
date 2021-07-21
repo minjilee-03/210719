@@ -1,3 +1,4 @@
+/*main-visual*/
 $(document).ready(function(){
     $(".main-visual-slick-slides").slick({
       fade: true,
@@ -22,7 +23,7 @@ $(document).ready(function(){
       $header.toggleClass('down', scrolled); //클래스 토글
     });
   });
-
+/*content2-slider*/
   $(document).ready(function(){
     $(".main-development-con").slick({
       fade: true,
