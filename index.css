@@ -197,6 +197,14 @@ header .header-inner-wrap .head-inner .logo::after {
     top: 10px;
 }
 
+.main-visual-01-01 {
+    display: block;
+}
+
+.main-visual-01-02 {
+    display: none;
+}
+
 .slide1 .main-visual-txt-con .main-visual-txt1 {
     font-size: 25px;
     margin-bottom: 30px;
@@ -286,16 +294,9 @@ header .header-inner-wrap .head-inner .logo::after {
 }
 
 .m-main-company-list li {
-    width: 453px;
+    width: 50%;
     height: 455px;
     float: left;
-}
-
-.m-main-company-list .li-05 {
-
-    width: 100%;
-
-    margin-bottom: 150px;
 }
 
 .m-main-company-list .li-01 {
@@ -312,16 +313,8 @@ header .header-inner-wrap .head-inner .logo::after {
     background-color: #0ba9b5;
 }
 
-.m-main-company-list .li-04 {
-    background: url(http://www.novel-works.com/images/main/main_con01_img04_m.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
 .m-main-company-list .li-05 {
-    background: url(http://www.novel-works.com/images/main/main_con01_img05_m.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+    margin-bottom: 150px;
 }
 
 .m-main-company-list li::after {
@@ -490,7 +483,7 @@ li .txt-con .middle-line {
 
 .main-process .icon {
 
-    width: 100%;
+    width: auto;
 
     display: flex;
 
@@ -776,8 +769,34 @@ footer {
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media all and (min-width:375px) and (max-width:991px) {
+    .li-01-pc {
+        display: none;
+    }
+
+    .m-main-company-list .li-05 {
+        width: 100%;
+    }
+
+    .m-main-company-list .li-04 {
+        background: url(http://www.novel-works.com/images/main/main_con01_img04_m.jpg) center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    .m-main-company-list .li-05 {
+        background: url(http://www.novel-works.com/images/main/main_con01_img05_m.jpg) center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-bottom: 150px;
+    }
+}
 
 @media all and (min-width:768px) and (max-width:992px) {
+    .li-01-pc {
+        display: none;
+    }
+
     header {
         position: absolute;
         width: 100%;
@@ -1153,6 +1172,578 @@ footer {
         font-size: 15px;
     }
 }
-@media all and (min-width:992px){
-    
+
+@media all and (min-width:375px) and (max-width:991px) {
+    .li-01-pc {
+        display: none;
+    }
+
+    .m-main-company-list .li-05 {
+        width: 100%;
+    }
+
+    .m-main-company-list .li-04 {
+        background: url(http://www.novel-works.com/images/main/main_con01_img04_m.jpg) center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    .m-main-company-list .li-05 {
+        background: url(http://www.novel-works.com/images/main/main_con01_img05_m.jpg) center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-bottom: 150px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:992px) {
+    .li-01-pc {
+        display: none;
+    }
+
+    header {
+        position: absolute;
+        width: 100%;
+    }
+
+    .header-inner-wrap {
+        position: fixed;
+        z-index: 9998;
+        height: auto;
+        width: 100%;
+    }
+
+    .down {
+        background-color: white;
+        -webkit-transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+    }
+
+    .head-inner {
+        position: relative;
+        height: auto;
+        margin: 0px auto;
+        padding: 0 35px;
+    }
+
+    header .header-inner-wrap .head-inner .logo {
+        position: relative;
+        z-index: 100;
+        float: left;
+        width: auto;
+        margin: 0;
+    }
+
+    header .header-inner-wrap .head-inner .logo img {
+        width: auto;
+        height: 70px;
+    }
+
+    header .header-inner-wrap .head-inner .logo::after {
+        clear: both;
+    }
+
+    .clearfix:after {
+        clear: both;
+        display: block;
+        content: "";
+    }
+
+    .header-ulbox {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-lang {
+        position: relative;
+        width: 100%;
+        float: left;
+        height: 100%;
+        z-index: 100;
+    }
+
+    .header-lang :after {
+        clear: both;
+    }
+
+    .header-ulbox .header-lang .header-lang-ul {
+        width: 110px;
+        height: 40px;
+        padding: 0;
+        border-radius: 60px;
+        list-style: disc;
+        background-color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        margin-left: 750px;
+    }
+
+    .header-ulbox .header-lang .header-lang-ul li {
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        float: left;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-ulbox .header-lang .header-lang-ul .none-select a {
+        color: black;
+    }
+
+    .header-ulbox .header-lang ul li::after {
+        clear: both;
+    }
+
+    .header-ulbox .header-lang .header-lang-ul .select {
+        border-radius: 0 60px 60px 0;
+        background: linear-gradient(to right, rgb(43, 182, 116) 0%, rgb(12, 169, 180) 100%);
+    }
+
+    .header-ulbox .header-lang .header-lang-ul .select a {
+        color: white;
+    }
+
+    .header-menu-btn {
+        position: relative;
+        z-index: 9999;
+        width: auto;
+        top: -65px;
+        right: -20px;
+        margin-left: 860px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .header-menu-btn .line {
+        height: 2px;
+        margin: 0;
+        margin-bottom: 4px;
+        width: 25px;
+        color: black;
+        background-color: #999;
+    }
+
+    .header-menu-btn {
+        color: none;
+    }
+
+    .main-visual-slick {
+        margin-bottom: 400px;
+    }
+
+    .main-visual-txt-con {
+        text-align: center;
+        margin-top: -35%;
+        position: absolute;
+        top: 650px;
+        left: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .area-box {
+        max-width: 1376px;
+        margin: 0px auto;
+        top: 10px;
+    }
+
+    .slide1 .main-visual-txt-con .main-visual-txt1 {
+        font-size: 15px;
+        margin-bottom: 30px;
+        color: black;
+        font-weight: 900;
+        letter-spacing: 10px;
+    }
+
+    .slide1 .main-visual-txt-con .main-visual-txt2 {
+        font-size: 75px;
+        margin-bottom: 2%;
+        margin-top: 20;
+        line-height: 1;
+        color: black;
+        font-weight: 900;
+    }
+
+    .slick-next {
+        right: 66px;
+    }
+
+    .slick-prev {
+        left: 35px;
+    }
+
+    .slick-next,
+    .slick-prev {
+        top: 102%;
+        z-index: 999;
+    }
+
+    .slick-next:before {
+        font-size: 70px;
+        line-height: 1;
+        color: #0ba9b5;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .slick-prev:before {
+        font-size: 70;
+        line-height: 1;
+        opacity: .75;
+        color: #2bb673;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .main-content1 {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .m-main-company-list .li-01 .txt-con {
+        position: absolute;
+        top: 1505;
+        left: 150;
+        width: auto;
+        font-size: 25px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .m-main-company-list .li-02 .txt-con {
+        position: absolute;
+        top: 1535;
+        left: 560;
+        width: auto;
+        font-size: 25px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .m-main-company-list .li-03 .txt-con {
+        position: absolute;
+        top: 1955;
+        left: 110;
+        width: auto;
+        font-size: 25px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .m-main-company-list .txt-con .li-02-tit {
+        margin-bottom: 0;
+    }
+
+    .m-main-company-list .li-04 .txt-con {
+        margin: 0;
+        position: absolute;
+        top: 1958;
+        left: 610;
+        width: auto;
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .contents2-title {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+
+    .contents2-sub {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .main-process {
+        margin-top: 65px;
+    }
+
+    .main-process .process-line {
+        position: relative;
+        top: 100;
+    }
+
+    .main-process .process-line hr {
+        line-height: 50px;
+        width: 1000px;
+        right: 50px;
+        overflow-x: hidden;
+        background-color: #ddd;
+        position: relative;
+    }
+
+    .main-process ul li img {
+        width: 40px;
+        height: 39px;
+    }
+
+    .main-process .process-line .first-line {
+
+        top: -13;
+    }
+
+    .main-process .process-line .second-line {
+        top: 227;
+    }
+
+    .position1 .position-sub {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .position1 .position-sub em {
+        font-size: 15px;
+    }
+
+    .main-process ul li {
+        margin-right: 66px;
+    }
+
+    .main-development-tit {
+        font-size: 20px;
+    }
+
+    .content3-clearfix .txt-group .txt-01 {
+        font-size: 85px;
+    }
+
+    .content3-clearfix .txt-group .txt-02 {
+        font-size: 15px;
+    }
+
+    .content3-clearfix .txt-group .txt-02 {
+        padding-right: 0;
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .txt-03 {
+        font-size: 52px;
+    }
+
+    .foot-menu li a {
+        font-size: 20px;
+        color: black;
+    }
+
+    .foot-menu li a p {
+        font-size: 20px;
+    }
+
+    .footerBottom .tit {
+        font-size: 20px;
+    }
+
+    .foot-sub li {
+        font-size: 15px;
+    }
+
+    .foot-sub li .ceo {
+        margin-right: 66px;
+    }
+
+    .foot-sub li .company {
+        margin-right: 35px;
+    }
+
+    .foot-sub li {
+        margin-bottom: 5px;
+    }
+
+    .footer-location li {
+        font-size: 15px;
+        margin: 0 0 15px 0;
+    }
+
+    .footer-copyright {
+        font-size: 15px;
+    }
+}
+
+@media all and (min-width:992px) {
+    .main-visual-01-01 {
+        display: none;
+    }
+
+    .main-visual-01-02 {
+        display: block;
+    }
+
+    .m-main-company-list li {
+        height: auto;
+        float: left;
+    }
+
+    .m-main-company-list .li-01 {
+        background: url(http://novel-works.com/images/main/main_con01_img01.jpg) center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        width: 40%;
+    }
+
+    .m-main-company-list .li-02 {
+        background: url(http://www.novel-works.com/images/main/main_con01_img04.jpg) center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 25%;
+        width: 60%;
+    }
+
+    .m-main-company-list .li-03 {
+        background-color: #fff;
+        height: 25%;
+        width: 60%;
+    }
+
+    .m-main-company-list .li-04 {
+        height: 25%;
+        background: url(http://www.novel-works.com/images/main/main_con01_img05.jpg) center center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 60%;
+    }
+
+    .m-main-company-list .li-05 {
+        height: 25%;
+        margin-bottom: 150px;
+        background-color: #fff;
+        width: 60%;
+    }
+
+    .m-main-company-list .li-01 .txt-con {
+        position: absolute;
+        top: 1275;
+        left: 90;
+        width: auto;
+        font-size: 25px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .m-main-company-list .li-02 .txt-con {
+        position: absolute;
+        top: 1480;
+        left: 480;
+        width: auto;
+        font-size: 25px;
+        color: black;
+        font-weight: 600;
+    }
+
+    .m-main-company-list .li-03 .txt-con {
+        position: absolute;
+        top: 1835;
+        left: 450;
+        width: auto;
+        font-size: 25px;
+        color: black;
+        font-weight: 600;
+    }
+
+    .m-main-company-list .txt-con .li-02-tit {
+        margin-bottom: 0;
+    }
+
+    .m-main-company-list .li-04 .txt-con {
+        margin: 0;
+        position: absolute;
+        top: 1315;
+        left: 440;
+        width: auto;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .li-01-pc {
+        display: block;
+    }
+
+    .li-01-pc-ul {
+        font-size: 15px;
+    }
+
+    .li-01-pc-ul li {
+        margin-bottom: 10px;
+    }
+
+    .li-01-pc-span {
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background-color: #fff;
+        margin: 15px 0 25px;
+    }
+
+    .li-03-clearfix {
+        padding: 0 0 0 0;
+    }
+
+    .li-03-line {
+        display: inline-block;
+        width: 40px;
+        height: 2px;
+        position: relative;
+        top: 25;
+        right: 33;
+        background-color: #0ba9b5;
+        margin: 15px 0 25px;
+    }
+
+    .m-main-company-list .li-04 .txt-con p {
+        margin: 0;
+
+    }
+
+    .main-process .process-line .second-line {
+        display: none;
+    }
+
+    .main-process ul li img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .position1 .position-sub {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .main-process ul li {
+        margin-right: 23px;
+        width: 10%;
+    }
+
+    .dot {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        position: relative;
+        background-color: #ddd;
+        top: -5;
+        right: -30;
+        margin-bottom: 20px
+    }
+
+    .main-process ul {
+        padding-left: 0;
+    }
 }
