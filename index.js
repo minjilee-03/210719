@@ -7,10 +7,9 @@ $(document).ready(function () {
   });
 });
 
-
 $(function () {
   var $header = $('.header-inner-wrap');
-  var $page = $('.main-visual-txt-con');
+  var $page = $('.main-visual-txt1');
   var $window = $(window);
   var pageOffsetTop = $page.offset().top;//색상 변할 부분의 top값 구하기
 
@@ -23,7 +22,6 @@ $(function () {
     $header.toggleClass('down', scrolled); //클래스 토글
   });
 });
-
 
 $(document).ready(function () {
   $(".main-development-con").slick({
