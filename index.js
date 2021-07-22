@@ -7,6 +7,7 @@ $(document).ready(function () {
   });
 });
 
+
 $(function () {
   var $header = $('.header-inner-wrap');
   var $page = $('.main-visual-txt-con');
@@ -22,6 +23,7 @@ $(function () {
     $header.toggleClass('down', scrolled); //클래스 토글
   });
 });
+
 
 $(document).ready(function () {
   $(".main-development-con").slick({
