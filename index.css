@@ -291,7 +291,7 @@ header .header-inner-wrap .head-inner .logo::after {
 
 .main-content {
     padding-top: 30px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .main-content1 {
@@ -566,7 +566,7 @@ li .txt-con .middle-line {
 }
 
 .content3-clearfix {
-    padding: 55px 80px 0;
+    padding: 25px 15px 0;
 }
 
 .content3-clearfix .prd {
@@ -578,7 +578,11 @@ li .txt-con .middle-line {
 }
 
 .content3-clearfix .prd img {
-    width: 200px;
+    width: 100px;
+}
+
+.main-development-img img {
+    width: 500px;
 }
 
 .content3-clearfix .txt-group {
@@ -587,29 +591,33 @@ li .txt-con .middle-line {
     right: -50;
     top: -25;
     position: relative;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .content3-clearfix .txt-group .txt-01 {
-    font-size: 115px;
+    font-size: 50px;
     font-weight: 900;
     margin: 0;
     width: 100%;
     padding-right: 0;
+    margin-top: 20px;
 }
 
 .content3-clearfix .txt-group .txt-02 {
-    padding-top: 10px;
     width: 100%;
-    padding-right: 0;
-    font-size: 32px;
+    margin: 0;
+    padding-right: 15;
+    font-size: 12px;
 }
 
 .txt-03 {
     padding-top: 30px;
     width: 100%;
     padding-right: 0;
-    font-size: 132px;
+    font-size: 52px;
     text-align: center;
+    line-height: 0.9;
     font-weight: 900;
     margin: 0;
 }
