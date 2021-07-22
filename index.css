@@ -35,7 +35,7 @@ b {
 }
 
 .area {
-    padding: 0 35px;
+    padding: 0 15px;
 }
 
 header {
@@ -62,7 +62,7 @@ header {
     position: relative;
     height: auto;
     margin: 0px auto;
-    padding: 0 35px;
+    padding: 0 15px;
 }
 
 header .header-inner-wrap .head-inner .logo {
@@ -75,7 +75,7 @@ header .header-inner-wrap .head-inner .logo {
 
 header .header-inner-wrap .head-inner .logo img {
     width: auto;
-    height: 170px;
+    height: 60px;
 }
 
 header .header-inner-wrap .head-inner .logo::after {
@@ -108,8 +108,8 @@ header .header-inner-wrap .head-inner .logo::after {
 }
 
 .header-ulbox .header-lang .header-lang-ul {
-    width: 220px;
-    height: 80px;
+    width: 80px;
+    height: 30px;
     padding: 0;
     border-radius: 60px;
     list-style: disc;
@@ -117,8 +117,8 @@ header .header-inner-wrap .head-inner .logo::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    margin-left: 590px;
+    margin-top: 10px;
+    margin-left: 230px;
 }
 
 .header-ulbox .header-lang .header-lang-ul li {
@@ -128,7 +128,7 @@ header .header-inner-wrap .head-inner .logo::after {
     text-align: center;
     padding: 0;
     float: left;
-    font-size: 1.7rem;
+    font-size: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,20 +155,19 @@ header .header-inner-wrap .head-inner .logo::after {
     position: relative;
     z-index: 9999;
     width: auto;
-    height: 65px;
-    top: -117px;
-    right: 5px;
-    margin-left: 860px;
+    height: auto;
+    top: -45px;
+    right: -215px;
+    margin-left: 120px;
     background-color: transparent;
-    ;
     border: none;
 }
 
 .header-menu-btn .line {
-    height: 5px;
+    height: 2px;
     margin: 0;
-    margin-bottom: 10px;
-    width: 50px;
+    margin-bottom: 5px;
+    width: 25px;
     color: black;
     background-color: #999;
 }
@@ -178,6 +177,7 @@ header .header-inner-wrap .head-inner .logo::after {
 }
 
 .main-visual {
+    width: 100%;
     padding-bottom: 5px;
 }
 
@@ -188,35 +188,37 @@ header .header-inner-wrap .head-inner .logo::after {
     top: 650px;
     left: 0px;
     width: 100%;
+    height: auto;
     z-index: 1;
 }
 
 .area-box {
     max-width: 1376px;
     margin: 0px auto;
-    top: 10px;
+    position: relative;
+    top: -390px;
 }
 
-.main-visual-01-01 {
+.main-visual .main-visual-slick-slides .main-visual-01-01 {
     display: block;
 }
 
-.main-visual-01-02 {
+.main-visual .main-visual-slick-slides .main-visual-01-02 {
     display: none;
 }
 
 .slide1 .main-visual-txt-con .main-visual-txt1 {
-    font-size: 25px;
+    font-size: 5px;
     margin-bottom: 30px;
     color: black;
     font-weight: 900;
-    letter-spacing: 18px;
+    letter-spacing: 8px;
 }
 
 .slide1 .main-visual-txt-con .main-visual-txt2 {
-    font-size: 112px;
+    font-size: 42px;
     margin-bottom: 2%;
-    margin-top: 20;
+    margin-top: 10;
     line-height: 1;
     color: black;
     font-weight: 900;
@@ -245,22 +247,30 @@ header .header-inner-wrap .head-inner .logo::after {
 }
 
 .slide2 .main-visual-txt-con .main-visual-txt1 {
-    font-size: 25px;
+    font-size: 5px;
     margin-bottom: 30px;
     color: white;
     font-weight: 900;
-    letter-spacing: 18px;
+    letter-spacing: 8px;
 }
 
 .slide2 .main-visual-txt-con .main-visual-txt2 {
-    font-size: 112px;
+    font-size: 42px;
     margin-bottom: 2%;
-    margin-top: 20;
+    margin-top: 10;
     line-height: 1;
     color: white;
     font-weight: 900;
 }
 
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    height: 500px;
+    padding: 0;
+}
 
 .more-view-btn img {
     top: -50px;
@@ -281,12 +291,12 @@ header .header-inner-wrap .head-inner .logo::after {
 
 .main-content {
     padding-top: 30px;
-    padding-bottom: 350px;
+    padding-bottom: 150px;
 }
 
 .main-content1 {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .m-main-company-list {
@@ -295,7 +305,7 @@ header .header-inner-wrap .head-inner .logo::after {
 
 .m-main-company-list li {
     width: 50%;
-    height: 455px;
+    height: 200px;
     float: left;
 }
 
@@ -323,20 +333,20 @@ header .header-inner-wrap .head-inner .logo::after {
 
 .m-main-company-list .li-01 .txt-con {
     position: absolute;
-    top: 1630;
-    left: 110;
+    top: 650;
+    left: 40;
     width: auto;
-    font-size: 40px;
+    font-size: 15px;
     color: #fff;
     font-weight: 600;
 }
 
 .m-main-company-list .li-02 .txt-con {
     position: absolute;
-    top: 1675;
-    left: 560;
+    top: 665;
+    left: 210;
     width: auto;
-    font-size: 40px;
+    font-size: 20px;
     color: #fff;
     font-weight: 600;
 }
@@ -350,7 +360,7 @@ li .txt-con .middle-line {
     width: 20px;
     height: 2px;
     background-color: #fff;
-    margin: 15px 0 25px;
+    margin: 10px 0 20px;
 }
 
 .m-main-company-list .li-02 .txt-con .small-sub {
@@ -363,24 +373,24 @@ li .txt-con .middle-line {
 
 .m-main-company-list .li-02 .txt-con .small-sub1 {
     top: 300;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 400;
     margin: 0;
 }
 
 .m-main-company-list .li-02 .txt-con .small-sub2 {
     top: 400;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 400;
     margin: 0;
 }
 
 .m-main-company-list .li-03 .txt-con {
     position: absolute;
-    top: 2078;
-    left: 110;
+    top: 838;
+    left: 30;
     width: auto;
-    font-size: 40px;
+    font-size: 20px;
     color: #fff;
     font-weight: 600;
 }
@@ -388,24 +398,26 @@ li .txt-con .middle-line {
 .m-main-company-list .li-03 .txt-con ul li {
     width: 40%;
     float: left;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 1.6;
     height: 30px;
     font-weight: 400;
-    margin-bottom: -5px;
+    margin-bottom: -13px;
     letter-spacing: -0.5px;
 }
 
 .li-03-clearfix {
-    padding: 0 430px 0 0;
+    padding: 0 0px 0 0;
 }
 
 .m-main-company-list .li-04 .txt-con {
     margin: 0;
     position: absolute;
-    top: 2078;
-    left: 560;
+    top: 778;
+    left: 60;
+    display: none;
     width: auto;
+    display: block;
     font-size: 40px;
     color: #fff;
     font-weight: 600;
@@ -421,9 +433,20 @@ li .txt-con .middle-line {
     color: #0ba9b5;
 }
 
+.li-04 .txt-con p {
+    font-size: 15;
+    position: relative;
+    right: -160;
+    top: 70;
+}
+
+.m-main-company-list .li-04 .txt-con span {
+    display: none;
+}
+
 .contents2-title {
     width: 100%;
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
     font-weight: 900;
     margin-bottom: 25px;
@@ -432,7 +455,7 @@ li .txt-con .middle-line {
 .contents2-sub {
     width: 100%;
     text-align: center;
-    font-size: 31px;
+    font-size: 12px;
     margin: 0;
 }
 
@@ -456,16 +479,16 @@ li .txt-con .middle-line {
 
 .main-process .process-line .first-line {
 
-    top: 18;
+    top: -23;
 }
 
 .main-process .process-line .second-line {
-    top: 257;
+    top: 217;
 }
 
 .main-process ul {
 
-    padding-left: 80px;
+    padding-left: px;
 }
 
 .main-process ul li {
@@ -474,7 +497,8 @@ li .txt-con .middle-line {
     float: left;
     height: 250px;
     text-align: center;
-    margin-right: 60px;
+    margin-right: 15px;
+    margin-left: 11px;
 }
 
 .main-process ul li:after {
@@ -497,8 +521,8 @@ li .txt-con .middle-line {
 }
 
 .main-process ul li img {
-    width: 60px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
 }
 
 .position1 {
@@ -507,12 +531,12 @@ li .txt-con .middle-line {
 }
 
 .position1 .position-sub {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .position1 .position-sub em {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .main-content3 {
@@ -521,9 +545,9 @@ li .txt-con .middle-line {
 }
 
 .main-development-tit {
-    font-size: 40px;
+    font-size: 17px;
     font-weight: 700;
-    padding: 0 35px;
+    padding: 0 15px;
 }
 
 .main-development-tit .fc-green {
@@ -633,14 +657,15 @@ footer {
 }
 
 .foot-menu li a {
-    font-size: 30px;
+    font-size: 11px;
     color: black;
 }
 
 .foot-menu li a p {
-    font-size: 30px;
+    font-size: 11px;
     font-weight: 600;
     margin: 0;
+    margin-top: 4;
     color: #0ba9b5;
 }
 
@@ -649,7 +674,7 @@ footer {
 }
 
 .footerBottom .tit {
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 800;
     letter-spacing: 0.25px;
     color: #222;
@@ -657,7 +682,7 @@ footer {
 }
 
 .foot-sub {
-    font-size: 30px;
+    font-size: 10px;
 }
 
 .foot-sub a {
@@ -683,15 +708,16 @@ footer {
 }
 
 .foot-sub li .ceo {
-    margin-right: 114px;
+    margin-right: 54px;
 }
 
 .foot-sub li .company {
-    margin-right: 47px;
+    margin-right: 32px;
 }
 
 .footer-contact {
     width: 50%;
+    padding-left: 20;
 }
 
 .footer-location {
@@ -705,8 +731,8 @@ footer {
 }
 
 .footer-location li {
-    font-size: 30px;
-    margin: 0 0 50px 0;
+    font-size: 10px;
+    margin: 0 0 20px 0;
     color: black;
 }
 
@@ -721,13 +747,13 @@ footer {
     position: relative;
     background-color: #ddd;
     top: -30;
-    right: -65;
+    right: -22;
 }
 
 .footer-copyright {
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 5px;
     letter-spacing: 0.25px;
     color: #222;
     font-weight: 400;
@@ -739,21 +765,21 @@ footer {
 }
 
 .slick-next {
-    right: 156px;
+    right: 50px;
 }
 
 .slick-prev {
-    left: 25px;
+    left: 10px;
 }
 
 .slick-next,
 .slick-prev {
-    top: 85%;
+    top: 98%;
     z-index: 999;
 }
 
 .slick-next:before {
-    font-size: 150px;
+    font-size: 65px;
     line-height: 1;
     color: #0ba9b5;
     -webkit-font-smoothing: antialiased;
@@ -761,7 +787,7 @@ footer {
 }
 
 .slick-prev:before {
-    font-size: 150;
+    font-size: 65;
     line-height: 1;
     opacity: .75;
     color: #2bb673;
@@ -769,7 +795,7 @@ footer {
     -moz-osx-font-smoothing: grayscale;
 }
 
-@media all and (min-width:375px) and (max-width:991px) {
+@media all and (min-width:375px) and (max-width:768px) {
     .li-01-pc {
         display: none;
     }
@@ -877,7 +903,7 @@ footer {
         align-items: center;
         justify-content: center;
         margin-top: 15px;
-        margin-left: 750px;
+        margin-left: 650px;
     }
 
     .header-ulbox .header-lang .header-lang-ul li {
@@ -914,9 +940,9 @@ footer {
         position: relative;
         z-index: 9999;
         width: auto;
-        top: -65px;
+        top: -45px;
         right: -20px;
-        margin-left: 860px;
+        margin-left: 770px;
         background-color: transparent;
         border: none;
     }
@@ -1092,409 +1118,6 @@ footer {
 
     .main-process .process-line .first-line {
 
-        top: -13;
-    }
-
-    .main-process .process-line .second-line {
-        top: 227;
-    }
-
-    .position1 .position-sub {
-        font-size: 15px;
-        font-weight: 500;
-    }
-
-    .position1 .position-sub em {
-        font-size: 15px;
-    }
-
-    .main-process ul li {
-        margin-right: 66px;
-    }
-
-    .main-development-tit {
-        font-size: 20px;
-    }
-
-    .content3-clearfix .txt-group .txt-01 {
-        font-size: 85px;
-    }
-
-    .content3-clearfix .txt-group .txt-02 {
-        font-size: 15px;
-    }
-
-    .content3-clearfix .txt-group .txt-02 {
-        padding-right: 0;
-        font-size: 13px;
-        margin: 0;
-    }
-
-    .txt-03 {
-        font-size: 52px;
-    }
-
-    .foot-menu li a {
-        font-size: 20px;
-        color: black;
-    }
-
-    .foot-menu li a p {
-        font-size: 20px;
-    }
-
-    .footerBottom .tit {
-        font-size: 20px;
-    }
-
-    .foot-sub li {
-        font-size: 15px;
-    }
-
-    .foot-sub li .ceo {
-        margin-right: 66px;
-    }
-
-    .foot-sub li .company {
-        margin-right: 35px;
-    }
-
-    .foot-sub li {
-        margin-bottom: 5px;
-    }
-
-    .footer-location li {
-        font-size: 15px;
-        margin: 0 0 15px 0;
-    }
-
-    .footer-copyright {
-        font-size: 15px;
-    }
-}
-
-@media all and (min-width:375px) and (max-width:991px) {
-    .li-01-pc {
-        display: none;
-    }
-
-    .m-main-company-list .li-05 {
-        width: 100%;
-    }
-
-    .m-main-company-list .li-04 {
-        background: url(http://www.novel-works.com/images/main/main_con01_img04_m.jpg) center center no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
-    }
-
-    .m-main-company-list .li-05 {
-        background: url(http://www.novel-works.com/images/main/main_con01_img05_m.jpg) center center no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
-        margin-bottom: 150px;
-    }
-}
-
-@media all and (min-width:768px) and (max-width:992px) {
-    .li-01-pc {
-        display: none;
-    }
-
-    header {
-        position: absolute;
-        width: 100%;
-    }
-
-    .header-inner-wrap {
-        position: fixed;
-        z-index: 9998;
-        height: auto;
-        width: 100%;
-    }
-
-    .down {
-        background-color: white;
-        -webkit-transition-duration: 0.2s;
-        -webkit-transition-timing-function: ease;
-        transition-duration: 0.2s;
-        transition-timing-function: ease;
-    }
-
-    .head-inner {
-        position: relative;
-        height: auto;
-        margin: 0px auto;
-        padding: 0 35px;
-    }
-
-    header .header-inner-wrap .head-inner .logo {
-        position: relative;
-        z-index: 100;
-        float: left;
-        width: auto;
-        margin: 0;
-    }
-
-    header .header-inner-wrap .head-inner .logo img {
-        width: auto;
-        height: 70px;
-    }
-
-    header .header-inner-wrap .head-inner .logo::after {
-        clear: both;
-    }
-
-    .clearfix:after {
-        clear: both;
-        display: block;
-        content: "";
-    }
-
-    .header-ulbox {
-        position: absolute;
-        z-index: 100;
-        width: 100%;
-        height: 100%;
-    }
-
-    .header-lang {
-        position: relative;
-        width: 100%;
-        float: left;
-        height: 100%;
-        z-index: 100;
-    }
-
-    .header-lang :after {
-        clear: both;
-    }
-
-    .header-ulbox .header-lang .header-lang-ul {
-        width: 110px;
-        height: 40px;
-        padding: 0;
-        border-radius: 60px;
-        list-style: disc;
-        background-color: #eee;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 15px;
-        margin-left: 750px;
-    }
-
-    .header-ulbox .header-lang .header-lang-ul li {
-        width: 50%;
-        height: 100%;
-        margin: 0;
-        text-align: center;
-        padding: 0;
-        float: left;
-        font-size: 0.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .header-ulbox .header-lang .header-lang-ul .none-select a {
-        color: black;
-    }
-
-    .header-ulbox .header-lang ul li::after {
-        clear: both;
-    }
-
-    .header-ulbox .header-lang .header-lang-ul .select {
-        border-radius: 0 60px 60px 0;
-        background: linear-gradient(to right, rgb(43, 182, 116) 0%, rgb(12, 169, 180) 100%);
-    }
-
-    .header-ulbox .header-lang .header-lang-ul .select a {
-        color: white;
-    }
-
-    .header-menu-btn {
-        position: relative;
-        z-index: 9999;
-        width: auto;
-        top: -65px;
-        right: -20px;
-        margin-left: 860px;
-        background-color: transparent;
-        border: none;
-    }
-
-    .header-menu-btn .line {
-        height: 2px;
-        margin: 0;
-        margin-bottom: 4px;
-        width: 25px;
-        color: black;
-        background-color: #999;
-    }
-
-    .header-menu-btn {
-        color: none;
-    }
-
-    .main-visual-slick {
-        margin-bottom: 400px;
-    }
-
-    .main-visual-txt-con {
-        text-align: center;
-        margin-top: -35%;
-        position: absolute;
-        top: 650px;
-        left: 0px;
-        width: 100%;
-        z-index: 1;
-    }
-
-    .area-box {
-        max-width: 1376px;
-        margin: 0px auto;
-        top: 10px;
-    }
-
-    .slide1 .main-visual-txt-con .main-visual-txt1 {
-        font-size: 15px;
-        margin-bottom: 30px;
-        color: black;
-        font-weight: 900;
-        letter-spacing: 10px;
-    }
-
-    .slide1 .main-visual-txt-con .main-visual-txt2 {
-        font-size: 75px;
-        margin-bottom: 2%;
-        margin-top: 20;
-        line-height: 1;
-        color: black;
-        font-weight: 900;
-    }
-
-    .slick-next {
-        right: 66px;
-    }
-
-    .slick-prev {
-        left: 35px;
-    }
-
-    .slick-next,
-    .slick-prev {
-        top: 102%;
-        z-index: 999;
-    }
-
-    .slick-next:before {
-        font-size: 70px;
-        line-height: 1;
-        color: #0ba9b5;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
-
-    .slick-prev:before {
-        font-size: 70;
-        line-height: 1;
-        opacity: .75;
-        color: #2bb673;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
-
-    .main-content1 {
-        width: 100%;
-        padding-top: 60px;
-    }
-
-    .m-main-company-list .li-01 .txt-con {
-        position: absolute;
-        top: 1505;
-        left: 150;
-        width: auto;
-        font-size: 25px;
-        color: #fff;
-        font-weight: 600;
-    }
-
-    .m-main-company-list .li-02 .txt-con {
-        position: absolute;
-        top: 1535;
-        left: 560;
-        width: auto;
-        font-size: 25px;
-        color: #fff;
-        font-weight: 600;
-    }
-
-    .m-main-company-list .li-03 .txt-con {
-        position: absolute;
-        top: 1955;
-        left: 110;
-        width: auto;
-        font-size: 25px;
-        color: #fff;
-        font-weight: 600;
-    }
-
-    .m-main-company-list .txt-con .li-02-tit {
-        margin-bottom: 0;
-    }
-
-    .m-main-company-list .li-04 .txt-con {
-        margin: 0;
-        position: absolute;
-        top: 1958;
-        left: 610;
-        width: auto;
-        font-size: 30px;
-        color: #fff;
-        font-weight: 600;
-    }
-
-    .contents2-title {
-        width: 100%;
-        font-size: 30px;
-        text-align: center;
-        font-weight: 900;
-        margin-bottom: 25px;
-    }
-
-    .contents2-sub {
-        width: 100%;
-        text-align: center;
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .main-process {
-        margin-top: 65px;
-    }
-
-    .main-process .process-line {
-        position: relative;
-        top: 100;
-    }
-
-    .main-process .process-line hr {
-        line-height: 50px;
-        width: 1000px;
-        right: 50px;
-        overflow-x: hidden;
-        background-color: #ddd;
-        position: relative;
-    }
-
-    .main-process ul li img {
-        width: 40px;
-        height: 39px;
-    }
-
-    .main-process .process-line .first-line {
         top: -13;
     }
 
@@ -1577,12 +1200,15 @@ footer {
 }
 
 @media all and (min-width:992px) {
-    .main-visual-01-01 {
+    .main-visual .main-visual-slick-slides .main-visual-01-01 {
         display: none;
     }
 
-    .main-visual-01-02 {
+    .main-visual .main-visual-slick-slides .main-visual-01-02 {
+        width: 100%;
         display: block;
+        height: 100%;
+        background-size: cover !important;
     }
 
     .m-main-company-list li {
@@ -1744,5 +1370,40 @@ footer {
 
     .main-process ul {
         padding-left: 0;
+    }
+
+    .more-view-btn img {
+        top: 202px;
+        right: 347px;
+        position: absolute;
+    }
+
+    .area-box {
+        max-width: 1376px;
+        margin: 0px auto;
+        top: 10px;
+    }
+
+    .slide1 .main-visual-txt-con .main-visual-txt1 {
+        font-size: 15px;
+        margin-bottom: 30px;
+        color: black;
+        font-weight: 900;
+        letter-spacing: 10px;
+        line-height: 1;
+        text-align: left;
+        position: relative;
+        right: 330;
+    }
+
+    .slide1 .main-visual-txt-con .main-visual-txt2 {
+        font-size: 75px;
+        margin-bottom: 2%;
+        margin-top: 20;
+        margin-left: 20px;
+        line-height: 1;
+        text-align: left;
+        color: black;
+        font-weight: 900;
     }
 }
